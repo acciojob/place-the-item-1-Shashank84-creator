@@ -1,14 +1,14 @@
 .holder {
-      display: flex;
-      /* flex-wrap: wrap; */
-      justify-content: space-between; /* Distributes items along the main axis with space between */
-      gap: 10px; /* Adjust as needed */
-    }
+  display: flex;
+  flex-wrap: wrap; /* Added flex-wrap property */
+  justify-content: space-between; /* Distributes items along the main axis with space between */
+  gap: 10px; /* Adjust as needed */
+}
 
-    .item {
-      background-color: lightblue;
-      padding: 10px;
-      flex: 0 0 calc(33.33% - 10px); /* Each item takes up one-third of the container width with gap included */
-      /* flex: 0 0 calc(25% - 10px); for four items, flex: 0 0 calc(20% - 10px); for five items, and so on */
-      /* Adjust percentages and gap as needed */
-    }
+.item {
+  background-color: lightblue;
+  padding: 10px;
+  flex: 0 0 calc(33.33% - 10px); /* Each item takes up one-third of the container width with gap included */
+  /* flex: 0 0 calc(25% - 10px); for four items, flex: 0 0 calc(20% - 10px); for five items, and so on */
+  /* Adjust percentages and gap as needed */
+}
