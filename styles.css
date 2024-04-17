@@ -3,3 +3,9 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+.item {
+  width: 100px;    /* adjust as needed */
+  height: 100px;   /* adjust as needed */
+  /* add more styles as needed */
+}
