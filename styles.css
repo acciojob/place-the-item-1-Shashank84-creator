@@ -1,6 +1,6 @@
 .holder {
       display: flex;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
       justify-content: space-between; /* Distributes items along the main axis with space between */
       gap: 10px; /* Adjust as needed */
     }
